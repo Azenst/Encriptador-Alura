@@ -18,7 +18,7 @@
     display: flex;
     background: #20272D;
     color: #bbbdb9;
-    background-image: url(/imagens/cadeado-fechado.png);
+    background-image: url(./imagens/cadeado-fechado.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40%;
@@ -36,7 +36,7 @@
 
 .mensagem:hover {
    
-    background-image: url(/imagens/cadeado-aberto.png);
+    background-image: url(./imagens/cadeado-aberto.png);
     transition: 300ms;
 
 }
