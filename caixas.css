@@ -1,0 +1,49 @@
+.input-texto {
+
+    display: flex;
+    background: #20272D;
+    color: #bbbdb9;
+    box-sizing:  border-box;
+    border-color:  #D2D3CD;
+    border-radius:  5px 5px 0 0;
+    resize: none;
+    width: 97.5%;
+    height: 18%;
+    margin: 5px;
+       
+}
+  
+.mensagem {
+
+    display: flex;
+    background: #20272D;
+    color: #bbbdb9;
+    background-image: url(/imagens/cadeadomensagem.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40%;
+    box-sizing:  border-box;
+    border-color:  #D2D3CD;
+    border-radius:  0 0 5px 5px;
+    resize: none;
+    width: 97.5%;
+    height: 18%;
+    margin: 5px;
+    margin-top: -3px;
+    
+
+}
+
+.mensagem:hover {
+   
+    background-image: url(/imagens/cadeadoabertomensagem.png);
+    transition: 300ms;
+
+}
+  
+  
+textarea::placeholder {
+  
+    color: #bbbdb9;
+    
+}

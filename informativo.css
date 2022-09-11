@@ -1,0 +1,29 @@
+
+
+
+.alerta {
+
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 2vh;  
+
+}
+     
+.img-alerta {
+
+    display: flex;
+    position: absolute; 
+    margin-right: 10vh;
+
+}
+  
+.informacao {
+  
+    font-size: 15px;
+    font-weight: bold;
+    color: #bbbdb9;
+    display: flex;
+    margin-top: 1px;
+    margin-left: 2.8vh; 
+            
+}

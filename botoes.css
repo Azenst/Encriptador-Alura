@@ -1,0 +1,62 @@
+.botoes {
+
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  
+  .criptografar {
+  
+    background-color: #6b727a;
+    color:white;
+    box-sizing:  border-box;
+    border-color: #D2D3CD;
+    border-radius:  10px;
+    width: 170px;
+    margin: 0 5px;
+    
+  }
+
+  .criptografar:hover {
+  
+    cursor: pointer;
+    
+  }
+  
+  .criptografar:active {
+  
+    background-color: #20272D;
+    color: white;
+  
+  }
+  
+  .descriptografar {
+    
+    background-color: #6b727a;
+    color:white;
+    box-sizing:  border-box;
+    border-color:  #D2D3CD;
+    border-radius:  10px;
+    width: 215px;
+    margin: 0 5px;
+    
+  
+  }
+
+  .descriptografar:hover {
+  
+    cursor: pointer;
+    
+  }
+  
+  .descriptografar:active {
+  
+    background-color: #20272D;
+    color:white;
+  
+  }

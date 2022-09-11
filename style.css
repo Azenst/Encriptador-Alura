@@ -1,0 +1,106 @@
+* {
+
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  box-sizing: border-box;  
+  font-size: 20px;
+   
+}
+
+html {
+
+  background-image: url(/imagens/fundologoeditado.png);
+  background-color:  #20272D;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  margin-top: 9%;
+  height: 75%;
+  
+}
+
+body {
+
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ 
+}
+
+header {
+
+  display: flex;
+  position: fixed;
+  
+}
+
+main {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0; 
+  height: 90vh;
+  
+
+}
+
+section {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 750px;
+  height: 670px;
+  margin-left: -30px;
+  /*background-color: rgba(0, 0, 255, 0.296); */
+  
+
+}
+
+.container-red {
+
+  height: 100%;
+  width: 84%;
+  padding-top: 10px;
+  padding-left: 5px;
+  /*background-color: rgba(255, 0, 0, 0.338); */
+  
+}
+
+
+footer {
+  
+  text-align: center;
+  margin: 5%;
+ /* background-color: rgba(255, 0, 234, 0.338); */
+  
+}
+
+
+
+
+
+
+
+
+
+/*RESPONSIVO*/
+
+/* @media screen and (max-width: 480px) { 
+  main, .input-texto, .informacao, .criptografar, .descriptografar {
+
+      width: auto;
+      height: auto;
+  }
+
+
+  main {
+
+    display: flex;
+    position: relative;
+
+  }
+
+} */

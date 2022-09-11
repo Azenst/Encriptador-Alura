@@ -1,0 +1,16 @@
+.logo {
+
+    height: 12%;
+    margin: 20px;
+    top: 5vh;
+    left: 5vh;
+    opacity: 0.5;
+         
+}
+
+.logo:hover {
+ 
+    opacity: 1;
+    transition: 400ms;
+             
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Decodificador</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="caixas.css">
+    <link rel="stylesheet" href="botoes.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="copyright.css">
+    <link rel="stylesheet" href="informativo.css">
+    <link rel="stylesheet" href="barra_rolagem.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+
+    <header class="logo">   
+      <img src="/imagens/fundologo.png" alt="Logo da Alura no Monitor">                                  
+    </header>
+
+    <main>
+
+      <section class="container-blue">
+        
+        <div class="container-red">
+          <div class="alerta">             
+                <img src="/imagens/!.png" class="img-alerta">
+                <p class="informacao">Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          <textarea class="input-texto" placeholder="digite seu texto:"></textarea>
+          <textarea readonly class="mensagem" ></textarea> 
+
+          <div class="botoes">
+              <button class="criptografar" onclick="btnEncriptar()">
+                  Criptografar
+              </button>
+              <button class="descriptografar" onclick="btnDesencriptar()">
+                  Descriptografar
+              </button>    
+          </div>
+        </div>
+      
+  
+      </section>
+
+    </main>
+
+    <footer>       
+        
+        <div>
+          <a href="https://www.alura.com.br/" style="text-decoration:none" target="_blank">
+          <img src="/imagens/logo-footer.png">
+          <p class="copyright">&copy; Copyright Encriptador Alura - 2022</p>
+        </div>
+        <div>
+          <nav>
+          <ul class="menu">
+            <li>
+              <a href="https://www.linkedin.com/in/ggalletti-ggb1998/" style="text-decoration:none" target="_blank">
+              <img src="/imagens/linkedinteste.png" alt="linkedin">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Azenst" style="text-decoration:none" target="_blank">
+              <img src="/imagens/githubteste.png" alt="github">
+              </a>
+            </li>
+          </ul>
+          </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
